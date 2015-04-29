@@ -1,0 +1,15 @@
+D:\code\xyExtensions\bin\Release\xyExtensions.dll
+D:\code\xyExtensions\bin\Release\xyExtensions.pdb
+D:\code\xyExtensions\obj\Release\ResolveAssemblyReference.cache
+D:\code\xyExtensions\obj\Release\xyExtensions.dll
+D:\code\xyExtensions\obj\Release\xyExtensions.pdb
+D:\研究中心\code\xyExtensions\bin\Release\xyExtensions.dll
+D:\研究中心\code\xyExtensions\bin\Release\xyExtensions.pdb
+D:\研究中心\code\xyExtensions\obj\Release\ResolveAssemblyReference.cache
+D:\研究中心\code\xyExtensions\obj\Release\xyExtensions.dll
+D:\研究中心\code\xyExtensions\obj\Release\xyExtensions.pdb
+D:\fz\Src\xyExtensions\bin\Release\xyExtensions.dll
+D:\fz\Src\xyExtensions\bin\Release\xyExtensions.pdb
+D:\fz\Src\xyExtensions\obj\Release\ResolveAssemblyReference.cache
+D:\fz\Src\xyExtensions\obj\Release\xyExtensions.dll
+D:\fz\Src\xyExtensions\obj\Release\xyExtensions.pdb

@@ -1,0 +1,12 @@
+D:\研究中心\code\AddressExtensions\obj\Debug\ResolveAssemblyReference.cache
+D:\研究中心\code\AddressExtensions\bin\Debug\zip.txt
+D:\研究中心\code\AddressExtensions\bin\Debug\AddressExtensions.dll
+D:\研究中心\code\AddressExtensions\bin\Debug\AddressExtensions.pdb
+D:\研究中心\code\AddressExtensions\obj\Debug\AddressExtensions.dll
+D:\研究中心\code\AddressExtensions\obj\Debug\AddressExtensions.pdb
+D:\fz\Src\AddressExtensions\bin\Debug\zip.txt
+D:\fz\Src\AddressExtensions\bin\Debug\AddressExtensions.dll
+D:\fz\Src\AddressExtensions\bin\Debug\AddressExtensions.pdb
+D:\fz\Src\AddressExtensions\obj\Debug\ResolveAssemblyReference.cache
+D:\fz\Src\AddressExtensions\obj\Debug\AddressExtensions.dll
+D:\fz\Src\AddressExtensions\obj\Debug\AddressExtensions.pdb

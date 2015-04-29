@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<baseFiled>
+  <Filed name="id" nameCn="ID" isShow="1" ReadOnly="1"/>
+  <Filed name="ztid" nameCn="专题库ID" isShow="0" ReadOnly="1"/>
+  <Filed name="sid" nameCn="标识号" isShow="1" ReadOnly="0"/>
+  <Filed name="an" nameCn="申请号" isShow="1" ReadOnly="0"/>
+  <Filed name="ad" nameCn="申请日" isShow="1" ReadOnly="0"/>
+  <Filed name="pn" nameCn="公开号" isShow="1" ReadOnly="0"/>
+  <Filed name="pd" nameCn="公开日" isShow="1" ReadOnly="0"/>
+  <Filed name="gn" nameCn="授权号" isShow="1" ReadOnly="0"/>
+  <Filed name="gd" nameCn="授权日" isShow="1" ReadOnly="0"/>
+  <Filed name="pcd_in" nameCn="PCT进入中国日" isShow="1" ReadOnly="0"/>
+  <Filed name="pct_an" nameCn="PCT申请号" isShow="1" ReadOnly="0"/>
+  <Filed name="pct_ad" nameCn="PCT申请日" isShow="1" ReadOnly="0"/>
+  <Filed name="pct_pn" nameCn="PCT公开号" isShow="1" ReadOnly="0"/>
+  <Filed name="pct_gd" nameCn="PCT公开日" isShow="1" ReadOnly="0"/>
+  <Filed name="m_ad" nameCn="母案申请日" isShow="1" ReadOnly="0"/>
+  <Filed name="cpy" nameCn="最早优先权日" isShow="1" ReadOnly="0"/>
+  <Filed name="pa" nameCn="申请人" isShow="1" ReadOnly="0"/>
+  <Filed name="iv" nameCn="发明人" isShow="1" ReadOnly="0"/>
+  <Filed name="ipc" nameCn="IPC" isShow="1" ReadOnly="0"/>
+  <Filed name="cpc" nameCn="CPC" isShow="1" ReadOnly="0"/>
+  <Filed name="dmc" nameCn="DMC" isShow="1" ReadOnly="0"/>
+  <Filed name="des_page_sum" nameCn="说明书页数" isShow="1" ReadOnly="0"/>
+  <Filed name="clm_sum" nameCn="权利要求项数" isShow="1" ReadOnly="0"/>
+  <Filed name="pic_sum" nameCn="附图个数" isShow="1" ReadOnly="0"/>
+  <Filed name="sheng" nameCn="省" isShow="1" ReadOnly="0"/>
+  <Filed name="lg" nameCn="法律状态详细" isShow="1" ReadOnly="0"/>
+  <Filed name="title" nameCn="标题" isShow="1" ReadOnly="0"/>
+  <Filed name="abs" nameCn="摘要" isShow="1" ReadOnly="0"/>
+  <Filed name="addr" nameCn="申请人地址" isShow="1" ReadOnly="0"/>
+  <Filed name="zip" nameCn="邮编" isShow="1" ReadOnly="0"/>
+  <Filed name="dljg" nameCn="代理机构" isShow="1" ReadOnly="0"/>
+  <Filed name="dlr" nameCn="代理人" isShow="1" ReadOnly="0"/>
+  <Filed name="ec" nameCn="EC" isShow="1" ReadOnly="0"/>
+</baseFiled>

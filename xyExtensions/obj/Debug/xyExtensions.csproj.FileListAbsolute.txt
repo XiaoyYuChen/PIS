@@ -1,0 +1,15 @@
+D:\code\xyExtensions\bin\Debug\xyExtensions.dll
+D:\code\xyExtensions\bin\Debug\xyExtensions.pdb
+D:\code\xyExtensions\obj\Debug\ResolveAssemblyReference.cache
+D:\code\xyExtensions\obj\Debug\xyExtensions.dll
+D:\code\xyExtensions\obj\Debug\xyExtensions.pdb
+D:\研究中心\code\xyExtensions\bin\Debug\xyExtensions.dll
+D:\研究中心\code\xyExtensions\bin\Debug\xyExtensions.pdb
+D:\研究中心\code\xyExtensions\obj\Debug\ResolveAssemblyReference.cache
+D:\研究中心\code\xyExtensions\obj\Debug\xyExtensions.dll
+D:\研究中心\code\xyExtensions\obj\Debug\xyExtensions.pdb
+D:\fz\Src\xyExtensions\bin\Debug\xyExtensions.dll
+D:\fz\Src\xyExtensions\bin\Debug\xyExtensions.pdb
+D:\fz\Src\xyExtensions\obj\Debug\ResolveAssemblyReference.cache
+D:\fz\Src\xyExtensions\obj\Debug\xyExtensions.dll
+D:\fz\Src\xyExtensions\obj\Debug\xyExtensions.pdb

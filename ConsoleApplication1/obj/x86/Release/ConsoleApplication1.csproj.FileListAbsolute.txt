@@ -1,0 +1,13 @@
+D:\fz\Src\ConsoleApplication1\obj\x86\Release\ResolveAssemblyReference.cache
+D:\fz\Src\ConsoleApplication1\bin\Release\x64\SQLite.Interop.dll
+D:\fz\Src\ConsoleApplication1\bin\Release\x86\SQLite.Interop.dll
+D:\fz\Src\ConsoleApplication1\bin\Release\ConsoleApplication1.exe.config
+D:\fz\Src\ConsoleApplication1\bin\Release\ConsoleApplication1.exe
+D:\fz\Src\ConsoleApplication1\bin\Release\ConsoleApplication1.pdb
+D:\fz\Src\ConsoleApplication1\bin\Release\DBA.dll
+D:\fz\Src\ConsoleApplication1\bin\Release\MySql.Data.dll
+D:\fz\Src\ConsoleApplication1\bin\Release\System.Data.SQLite.dll
+D:\fz\Src\ConsoleApplication1\bin\Release\DBA.pdb
+D:\fz\Src\ConsoleApplication1\bin\Release\DBA.xml
+D:\fz\Src\ConsoleApplication1\obj\x86\Release\ConsoleApplication1.exe
+D:\fz\Src\ConsoleApplication1\obj\x86\Release\ConsoleApplication1.pdb

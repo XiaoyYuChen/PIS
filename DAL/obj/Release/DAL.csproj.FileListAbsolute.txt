@@ -1,0 +1,8 @@
+D:\fz\Src\DAL\bin\Release\DAL.dll
+D:\fz\Src\DAL\bin\Release\DAL.pdb
+D:\fz\Src\DAL\bin\Release\DbLinq.dll
+D:\fz\Src\DAL\bin\Release\DbLinq.MySql.dll
+D:\fz\Src\DAL\bin\Release\MySql.Data.dll
+D:\fz\Src\DAL\obj\Release\ResolveAssemblyReference.cache
+D:\fz\Src\DAL\obj\Release\DAL.dll
+D:\fz\Src\DAL\obj\Release\DAL.pdb

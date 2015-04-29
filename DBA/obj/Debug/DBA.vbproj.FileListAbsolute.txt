@@ -1,0 +1,16 @@
+D:\fz\Src\DBA\bin\Debug\DBA.dll
+D:\fz\Src\DBA\bin\Debug\DBA.pdb
+D:\fz\Src\DBA\bin\Debug\DBA.xml
+D:\fz\Src\DBA\bin\Debug\mysql.data.dll
+D:\fz\Src\DBA\bin\Debug\SQLite.Designer.dll
+D:\fz\Src\DBA\bin\Debug\System.Data.SQLite.dll
+D:\fz\Src\DBA\bin\Debug\System.Data.SQLite.Linq.dll
+D:\fz\Src\DBA\obj\Debug\ResolveAssemblyReference.cache
+D:\fz\Src\DBA\obj\Debug\DBA.Resources.resources
+D:\fz\Src\DBA\obj\Debug\GenerateResource.read.1.tlog
+D:\fz\Src\DBA\obj\Debug\GenerateResource.write.1.tlog
+D:\fz\Src\DBA\obj\Debug\DBA.dll
+D:\fz\Src\DBA\obj\Debug\DBA.xml
+D:\fz\Src\DBA\obj\Debug\DBA.pdb
+D:\fz\Src\DBA\bin\Debug\x64\SQLite.Interop.dll
+D:\fz\Src\DBA\bin\Debug\x86\SQLite.Interop.dll

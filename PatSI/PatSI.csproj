@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1A633EA0-6081-4A8F-85A4-6AB8500D6E13}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PatSI</RootNamespace>
+    <AssemblyName>PatSI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>PatSI.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.7.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dll\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="By\frmSetShowFiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="By\frmSetShowFiles.Designer.cs">
+      <DependentUpon>frmSetShowFiles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="checkVersion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="checkVersion.Designer.cs">
+      <DependentUpon>checkVersion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DBIN.Designer.cs">
+      <DependentUpon>DBIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBINProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DBINProcess.Designer.cs">
+      <DependentUpon>DBINProcess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPatDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPatDetails.Designer.cs">
+      <DependentUpon>frmPatDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPtList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPtList.Designer.cs">
+      <DependentUpon>frmPtList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmstat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmstat.Designer.cs">
+      <DependentUpon>frmstat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIMain.Designer.cs">
+      <DependentUpon>MDIMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewZT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewZT.Designer.cs">
+      <DependentUpon>NewZT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\UPServer\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Template.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Template.Designer.cs">
+      <DependentUpon>Template.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZTListNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZTListNew.Designer.cs">
+      <DependentUpon>ZTListNew.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="By\frmSetShowFiles.resx">
+      <DependentUpon>frmSetShowFiles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checkVersion.resx">
+      <DependentUpon>checkVersion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DBIN.resx">
+      <DependentUpon>DBIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DBINProcess.resx">
+      <DependentUpon>DBINProcess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPatDetails.resx">
+      <DependentUpon>frmPatDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPtList.resx">
+      <DependentUpon>frmPtList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmstat.resx">
+      <DependentUpon>frmstat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIMain.resx">
+      <DependentUpon>MDIMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewZT.resx">
+      <DependentUpon>NewZT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Template.resx">
+      <DependentUpon>Template.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZTListNew.resx">
+      <DependentUpon>ZTListNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\DataSources\BLL.Model.UserInfo.datasource" />
+    <None Include="Properties\DataSources\BLL.UIHelper.tmpinfo.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Service References\UPServer\PatSiSvs.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{54597CC3-45BF-4806-A0F1-B1AE6CD80FC5}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{3467FF3E-4EDD-4030-9279-BDA1C1DCEA4D}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBA\DBA.vbproj">
+      <Project>{ED2D2F9A-FE35-4389-9B71-57C05AD88396}</Project>
+      <Name>DBA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IData\IData.csproj">
+      <Project>{A6915611-8215-421D-8187-3036904497C5}</Project>
+      <Name>IData</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Cfg\show_base_cfg.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="zip.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Service References\UPServer\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\UPServer\configuration.svcinfo" />
+    <None Include="Service References\UPServer\configuration91.svcinfo" />
+    <None Include="Service References\UPServer\PatSiSvs.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\UPServer\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BLL.Model.UserInfo" Collapsed="true">
+    <Position X="3.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAACACAAAAAgAAAAAAAAAAQAAAAEAAAA=</HashCode>
+      <FileName>Model\UserInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.UserHelper">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>UserHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.Import.CPRSImport" Collapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABBACAgAADIIABAAAACQAABCgEIgQBAAAAAgAA=</HashCode>
+      <FileName>Import\CPRSImport.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BLL.ValueEventArgs">
+    <Position X="7.25" Y="2.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>ValueEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Delegate Name="BLL.ValueChangedEventHandler">
+    <Position X="8" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>ValueChangedEventHandler.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="BLL.SetMaxValueEventHander">
+    <Position X="10.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>SetMaxValueEventHander.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="宋体" Size="9" />
+</ClassDiagram>

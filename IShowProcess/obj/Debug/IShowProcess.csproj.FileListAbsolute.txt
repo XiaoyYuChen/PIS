@@ -1,0 +1,5 @@
+D:\fz\Src\IShowProcess\bin\Debug\IShowProcess.dll
+D:\fz\Src\IShowProcess\bin\Debug\IShowProcess.pdb
+D:\fz\Src\IShowProcess\obj\Debug\ResolveAssemblyReference.cache
+D:\fz\Src\IShowProcess\obj\Debug\IShowProcess.dll
+D:\fz\Src\IShowProcess\obj\Debug\IShowProcess.pdb

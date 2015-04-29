@@ -1,0 +1,5 @@
+D:\fz\Src\IData\obj\Release\ResolveAssemblyReference.cache
+D:\fz\Src\IData\bin\Release\IData.dll
+D:\fz\Src\IData\bin\Release\IData.pdb
+D:\fz\Src\IData\obj\Release\IData.dll
+D:\fz\Src\IData\obj\Release\IData.pdb

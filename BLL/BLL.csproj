@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{54597CC3-45BF-4806-A0F1-B1AE6CD80FC5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BLL</RootNamespace>
+    <AssemblyName>BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DbLinq">
+      <HintPath>..\dll\DbLinq.dll</HintPath>
+    </Reference>
+    <Reference Include="mysql.data">
+      <HintPath>..\Lib_dll\mysql.data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Config\stcfg.cs" />
+    <Compile Include="dblinq\MySqlDataContext.cs" />
+    <Compile Include="Import\CPRSImport.cs" />
+    <Compile Include="Import\WPIImport.cs" />
+    <Compile Include="Import\EPODOCImport.cs" />
+    <Compile Include="Index\CPRSIndex.cs" />
+    <Compile Include="Index\WPIIndex.cs" />
+    <Compile Include="Index\EPODOCIndex.cs" />
+    <Compile Include="Model\TbFiledList.cs" />
+    <Compile Include="Model\TbFiled_Cfg.cs" />
+    <Compile Include="Model\UserInfo.cs" />
+    <Compile Include="dblinq\MySqlHelper.cs" />
+    <Compile Include="PtDataHelper.cs" />
+    <Compile Include="SQLHelper\DataTableHelper.cs" />
+    <Compile Include="SQLHelper\ST_QS_01.cs" />
+    <Compile Include="SQLHelper\ST_QS_02.cs" />
+    <Compile Include="SQLHelper\ST_QS_03.cs" />
+    <Compile Include="SQLHelper\ST_QS_04.cs" />
+    <Compile Include="Template\TemplateHelper.cs" />
+    <Compile Include="UIHelper\STUIHelper.cs" />
+    <Compile Include="UIHelper\ZTListHelper.cs" />
+    <Compile Include="UIHelper\TemplateListHelper.cs" />
+    <Compile Include="UserHelper.cs" />
+    <Compile Include="ValueEventArgs.cs" />
+    <Compile Include="ZTHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="dblinq\ZTHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AddressExtensions\AddressExtensions.csproj">
+      <Project>{4C24C6F6-BAF5-46DA-8315-8E84F8BA6DCF}</Project>
+      <Name>AddressExtensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{3467FF3E-4EDD-4030-9279-BDA1C1DCEA4D}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBA\DBA.vbproj">
+      <Project>{ED2D2F9A-FE35-4389-9B71-57C05AD88396}</Project>
+      <Name>DBA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IData\IData.csproj">
+      <Project>{A6915611-8215-421D-8187-3036904497C5}</Project>
+      <Name>IData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\xyExtensions\xyExtensions.csproj">
+      <Project>{533F84E0-8508-498D-BC28-582E1B8B7F29}</Project>
+      <Name>xyExtensions</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="用户设计.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Export\" />
+    <Folder Include="Stat\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
